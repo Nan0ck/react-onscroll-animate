@@ -1,2 +1,2 @@
-# react-scroll-animation
+# react-onscroll-animate
  
