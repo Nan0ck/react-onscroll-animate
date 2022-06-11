@@ -2,6 +2,18 @@
   "name": "react-onscroll-animate",
   "version": "0.0.3",
   "description": "react-onscroll-animate",
+  "keywords": [
+    "reactScrollEffects",
+    "reactAnimationOnScroll",
+    "Scroll Effects",
+    "ReactJS",
+    "React",
+    "animate",
+    "scroll percentage",
+    "animation",
+    "on",
+    "scroll"
+  ],
   "author": "Nan0ck",
   "license": "MIT",
   "repository": "Nan0ck/react-onscroll-animate",
