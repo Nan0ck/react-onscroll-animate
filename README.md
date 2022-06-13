@@ -44,7 +44,7 @@ and its gonna take another 10% of scroll to end
 - [x]  Add usePagePercentage Hook
 - [x]  Add Translate X animation
 - [x]  Add Translate Y animation 
-- [ ]  Add Scale Y animation 
+- [x]  Add Scale animation 
 - [ ]  Add Height animation 
 - [ ]  Add Width  animation 
 
