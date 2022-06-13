@@ -26,6 +26,10 @@ interface Props {
   children?: React.ReactNode
   startAndEnd: [number, number]
 }
+/**
+ * @prop children children to be wrapped by the animation component
+ * @prop startAndEnd scroll percentage range, ex:[0,20] from 0 to 20% of scroll 
+ */
 export const Show = ({ children, startAndEnd }: Props) => {
   const wrapperRef = useRef<HTMLDivElement>(null)
   useEffect(() => {

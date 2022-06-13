@@ -36,6 +36,12 @@ interface Props {
   startAndEnd: [number, number]
   x: number
 }
+
+/**
+ * @prop children children to be wrapped by the animation component
+ * @prop startAndEnd scroll percentage range, ex:[0,20] from 0 to 20% of scroll 
+ * @prop x pixel value  
+ */
 export const TranslateX = ({ children, startAndEnd, x }: Props) => {
   const wrapperRef = useRef<HTMLDivElement>(null)
   useEffect(() => {

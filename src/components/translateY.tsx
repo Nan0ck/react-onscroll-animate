@@ -36,6 +36,12 @@ interface Props {
   startAndEnd: [number, number]
   y: number
 }
+
+/**
+ * @prop children children to be wrapped by the animation component
+ * @prop startAndEnd scroll percentage range, ex:[0,20] from 0 to 20% of scroll 
+ * @prop y pixel value  
+ */
 export const TranslateY = ({ children, startAndEnd, y }: Props) => {
   const wrapperRef = useRef<HTMLDivElement>(null)
   useEffect(() => {
